@@ -1,0 +1,29 @@
+{
+  "name": "@tmargraff/basermq-ts",
+  "version": "1.0.1",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "basermq-ts": "./bin/index.js"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build": "tsc --outDir bin",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "tmargraff",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/amqp-connection-manager": "^2.0.5",
+    "@types/amqplib": "^0.5.13",
+    "@types/node": "^13.7.1",
+    "typescript": "^3.7.5"
+  },
+  "dependencies": {
+    "amqp-connection-manager": "^3.2.0",
+    "amqplib": "^0.5.5"
+  }
+}
